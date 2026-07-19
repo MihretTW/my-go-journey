@@ -74,4 +74,5 @@ func main() {
 	}
 
 	fmt.Println("Average Grade: " + fmt.Sprint(averageGrade()))
+
 }
