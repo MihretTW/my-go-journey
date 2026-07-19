@@ -73,6 +73,6 @@ func main() {
 		fmt.Println("- " + subject + ": " + fmt.Sprint(grade))
 	}
 
-	fmt.Println("Average Grade: " + fmt.Sprint(averageGrade()))
+	fmt.Printf("Average Grade: %.2f\n", averageGrade())
 
 }
